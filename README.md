@@ -9,10 +9,10 @@ on the number of crimes in NYC. My assumption is that they are negatively correl
 The first step was to extract all the data for crimes that happened in 2020 from the "NYPD Complaint Data Historic" and to eliminate some of the bad data using the the try and except method. I made two csv files for 2020. One having the whole data of 2020 and second one having data from march till december,to test the correlation with covid-19 cases, as covid-19 started in march in NYC.
 
 </br>
-I used the the following code to achieve this-
+I used the the following code to achieve this. Row 1 had the date of the crime.
 </br>
 
-'''python
+''' python
 
 for row in reader:
     if n==0:
@@ -30,7 +30,7 @@ for row in reader:
             except:
                 continue
             if dto is not None:
-                if dto>datetime.datetime.strptime('02/29/2020',"%m/%d/%Y") and       dto<datetime.datetime.strptime('01/01/2021',"%m/%d/%Y"):            
+                if dto>datetime.datetime.strptime('02/29/2020',"%m/%d/%Y") and              dto<datetime.datetime.strptime('01/01/2021',"%m/%d/%Y"):            
                     writer.writerow(row)
                     
 '''
