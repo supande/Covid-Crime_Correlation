@@ -1,0 +1,4 @@
+# supande_Final_Project
+
+I am interested in finding the correlation between covid-19 cases and crimes committed in New York City in 2020. I am trying to understand whether the pandemic had any effect on the crimes committed or not. For this purpose, I have downloaded two datasets from NYC data source. The first one contains daily covid-19 cases in 2020 and the second dataset contains the crimes committed in NYC in 2020 along with their dates and type of crime. Datasets are overlapping as they both contain 2020 data and occurred in NYC. The granularity of the data would be one day, so I will have more than 300 data points to do the analysis. My perception is that the crimes committed decreased overall, but, I would like to find out if any particular kind of crime had a negative correlation with covid-19 cases. Moreover, if time permits, I would like to use a third data set related to a specific crime and analyze its correlation with the covid-19 cases.  
+ 
