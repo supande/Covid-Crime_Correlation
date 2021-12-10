@@ -411,4 +411,6 @@ Year  |  Average number of crimes per day
 
 
 
+
+
 Conclusion- Through all the techniques and methods that I have used in this project, I conclude that covid-19 has definitely impacted crimes in NYC. The crime count in 2020 had a good(-0.654) correlation with covid cases count and in 2021 the correlation was weaker(-0.455) than 2020, which proves that first wave of covid had a severe impact on crimes. Some of the crimes in 2020 like 'FORGERY', 'OFFENSES INVOLVING FRAUD', 'BURGLAR'S TOOLS' had a significant positive correlation with cavid-19 cases and similarly in 2021 crimes like "Theft frauds", "frauds","Dangerous drugs" had a good positive correlation with covid-cases. This means that covid-19 impacted different types of crimes differently and some crimes grew in covid period. Also, I noticed that crimes were increasing year by year till the pandemic started. After that, there was a significant decline in crimes in NYC and post covid first wave the crimes increased again, but they are still lower that the pre-covid period. This proves that the pandemic continues to impact the crimes in NYC.
