@@ -30,7 +30,7 @@ for row in reader:
             except:
                 continue
             if dto is not None:
-                if dto>datetime.datetime.strptime('02/29/2020',"%m/%d/%Y") and              dto<datetime.datetime.strptime('01/01/2021',"%m/%d/%Y"):            
+                if dto>datetime.datetime.strptime('02/29/2020',"%m/%d/%Y") and                       
                     writer.writerow(row)
                     
 '''
