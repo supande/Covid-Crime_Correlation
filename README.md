@@ -12,7 +12,7 @@ The first step was to extract all the data for crimes that happened in 2020 from
 I used the the following code to achieve this. Row 1 had the date of the crime.
 </br>
 
-''' python
+``` python
 
 for row in reader:
     if n==0:
@@ -30,10 +30,10 @@ for row in reader:
             except:
                 continue
             if dto is not None:
-                if dto>datetime.datetime.strptime('02/29/2020',"%m/%d/%Y") and                       
+                if dto>datetime.datetime.strptime('02/29/2020',"%m/%d/%Y") and  dto<datetime.datetime.strptime('01/01/2021',"%m/%d/%Y"):                       
                     writer.writerow(row)
                     
-'''
+```
 
 Similarly, I created a seperate csv file for 2020 covid cases.
 
