@@ -313,13 +313,13 @@ plt.savefig('2019_AverageCrimes_by_month.png')
 
 The histograms helped in seeing the difference from one year to another. The histograms of all years are given below-
 
-![Image of chart](Images/2017_AverageCrimes_by_month.png)
+![Image of chart](images/2017_AverageCrimes_by_month.png)
 
-![Image of chart](Images/2019_AverageCrimes_by_month.png)
+![Image of chart](images/2019_AverageCrimes_by_month.png)
 
-![Image of chart](Images/2020_AverageCrimes_by_month.png)
+![Image of chart](images/2020_AverageCrimes_by_month.png)
 
-![Image of chart](Images/2021_AverageCrimes_by_month.png)
+![Image of chart](images/2021_AverageCrimes_by_month.png)
 
 
 
